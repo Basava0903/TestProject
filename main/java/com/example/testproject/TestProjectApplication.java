@@ -9,7 +9,8 @@ public class TestProjectApplication {
 	public static Logger logger =LoggerFactory.getLogger(TestProjectApplication.class);
 	
 	@PostConstruct
-	public void init() {
+	public void init() { 
+		System.out.println("JENKINS TESTING");
 		logger.info("Application Started");
 		
 	}
